@@ -48,6 +48,7 @@ export class UsersService {
         name: true,
         email: true,
         passwordHash: true,
+        role: true,
         tasks: true,
       },
       relations: { tasks: true },
